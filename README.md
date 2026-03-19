@@ -7,7 +7,7 @@ https://www.biorxiv.org/content/10.1101/2024.08.09.606771v2.full
 
 ## Requirements
 
-This pipeline requires the mrQ and vistasoft MATLAB toolboxes.
+This pipeline requires the mrQ (https://github.com/mezera/mrQ) and vistasoft (https://github.com/vistalab/vistasoft) MATLAB toolboxes.
 Ensure both are installed and added to your MATLAB path.
 
 ## Usage

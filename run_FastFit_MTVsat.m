@@ -16,13 +16,13 @@
 %% =========================
 % 0. Setup paths
 % =========================
-addpath(genpath('/data/u_filo_software/software/mrQ-master'))
-addpath(genpath('/data/u_filo_software/software/vistasoft-master'))
+addpath(genpath('/mrQ-master'))
+addpath(genpath('/vistasoft-master'))
 
 %% =========================
 % 1. Subject directories
 % =========================
-base_dir = '/data/p_03037/analysis_adults/Sbj05_36881c9/ses-01';
+base_dir = '';
 
 hMRI_dir = fullfile(base_dir, 'hMRI_MPM');
 mrQ_dir  = fullfile(base_dir, 'mrQ');

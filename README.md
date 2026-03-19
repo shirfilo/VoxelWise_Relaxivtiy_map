@@ -2,15 +2,15 @@
 
 MATLAB code for estimating MTVsat, R1sat, relaxivity, and SWF from quantitative MRI maps and a single MT-weighted scan.
 
-Code accompanying the manuscript:
+Code accompanying the manuscript (see fast implementation):
 https://www.biorxiv.org/content/10.1101/2024.08.09.606771v2.full
 
-# VoxelWise_Relaxivtiy_map
+## Requirements
 
 This pipeline requires the mrQ and vistasoft MATLAB toolboxes.
 Ensure both are installed and added to your MATLAB path.
 
-Usage
+## Usage
 
 Edit and run:
 
@@ -18,7 +18,7 @@ run_FastFit_MTVsat.m
 
 All inputs must be co-registered and in the same space.
 
-Outputs
+## Outputs
 
 The following maps are saved:
 
@@ -44,7 +44,7 @@ relaxivity_map_calibrated.nii.gz
 
 nonMTV_R1_calibrated.nii.gz
 
-Notes
+## Notes
 
 Inputs must be in the same space (no registration is performed).
 
